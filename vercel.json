@@ -2,8 +2,7 @@
     "name": "Subs API",
     "version": 2,
     "builds": [{
-        "src": "*py",
-        "use": "@python/now-flask"
+        "src": "*py"
     }],
     "routes": [
         { "src": "(.*)", "dest": "app.py" }
