@@ -1,9 +1,7 @@
 {
     "name": "Subs API",
     "version": 2,
-    "builds": [{
-        "src": "*py"
-    }],
+   
     "routes": [
         { "src": "(.*)", "dest": "app.py" }
     ]
