@@ -1,8 +1,5 @@
 {
-    "name": "Subs API",
-    "version": 2,
-   
-    "routes": [
-        { "src": "(.*)", "dest": "app.py" }
-    ]
+  "rewrites": [
+      { "source": "/(.*)", "destination": "app.py" }
+  ]
 }
